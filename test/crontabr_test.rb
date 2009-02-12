@@ -1,11 +1,6 @@
-#!/opt/local/bin/ruby
+require File.dirname(__FILE__) + '/test_helper'
 
-require 'test/unit'
-require 'active_support/callbacks'
-require 'active_support/test_case'
-require 'crontabr'
-
-class CrontabrTest < ActiveSupport::TestCase
+class CrontabrTest < Test::Unit::TestCase
   def test_scheduling
     job = "0 1 2 * * echo 'hello world'"
     job_id = 'xyzzy'

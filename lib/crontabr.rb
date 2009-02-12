@@ -3,7 +3,7 @@ require 'open3'
 class Crontabr
 
   class << self
-    
+
     def scheduled?(job_id)
       stdin, stdout, stderr = Open3.popen3('crontab -l')
       while(line = stdout.gets)
