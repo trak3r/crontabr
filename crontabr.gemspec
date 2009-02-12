@@ -2,14 +2,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{crontabr}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Teflon Ted"]
   s.date = %q{2009-02-12}
   s.description = %q{Ruby library for non-destructively adding, removing, and replacing crontab entries.}
   s.email = %q{github@rudiment.net}
-  s.files = ["lib/crontabr.rb", "test/crontabr_test.rb", "test/test_helper.rb"]
+  s.files = ["VERSION.yml", "lib/crontabr.rb", "test/crontabr_test.rb", "test/test_helper.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/trak3r/crontabr}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
