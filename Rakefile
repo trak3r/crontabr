@@ -8,7 +8,7 @@ begin
     s.email = "github@rudiment.net"
     s.homepage = "http://github.com/trak3r/crontabr"
     s.description = "Ruby library for non-destructively adding, removing, and replacing crontab entries."
-    s.authors = ["Teflon Ted"]
+    s.authors = ["Thomas 'Ted' Davis"]
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
