@@ -1,7 +1,8 @@
 crontabr========
-Description goes here.
+
+Ruby library for non-destructively adding, removing, and replacing crontab entries.
 
 COPYRIGHT
 =========
 
-Copyright (c) 2008 Teflon Ted. See LICENSE for details.
+Copyright (c) 2008 Thomas 'Ted' Davis. See LICENSE for details.
